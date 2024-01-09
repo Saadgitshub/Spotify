@@ -1,0 +1,55 @@
+body {
+    background-image: url('./vinyls/top_nav_background.jpg');
+    background-size: cover;
+  }
+  .container {
+    width: 400px;
+    margin: 260px auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ededed;
+    font-size:30px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 20px 10px; 
+    line-height: 15px;
+    margin-bottom: 40px;
+    border: 1px solid #000000;
+    background-color: #4b4747;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    font-family: Monospace;
+    margin-left: 280px;
+    font-size: 30px;
+    padding: 20px 30px; 
+    line-height: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: transparent;
+  }
+input[type="text"]::placeholder,
+input[type="password"]::placeholder{
+    font-family: Monospace;
+    font-size: 20px;
+    color:#000000;
+}

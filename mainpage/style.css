@@ -1,0 +1,345 @@
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    z-index: 900;
+    background-image: url("./vinyls/wallpaper.jpg");
+    background-color: transparent;
+    background-position: center;
+    background-size: cover; /* Use 'cover' to ensure the image covers the entire area */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-nav {
+    position: fixed;
+    top: 172px;
+    left: 0;
+    width: 100%;
+    z-index: 900;
+    background-color: rgb(0, 0, 0); 
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img 
+{
+    width: 100px;
+}
+  
+ul 
+{
+    list-style: none;
+    display: flex;
+}
+  
+li
+{
+    margin-left: 20px;
+}
+  
+.top-nav ul li 
+{
+    margin-right: 38px;
+}
+  
+.top-nav ul li a
+{
+    color: White;
+    font-size: 24px;
+    font-family : Calibri;  
+    text-decoration: underline;
+}
+
+.search-box
+{
+    display:flex;
+    border: solid;
+    border-radius: 19px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 20px;
+    background-color:#ffffff;
+}
+
+.search-bar input 
+{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+
+}
+input
+{
+    font-family: Monospace;
+    font-size:18px;
+    background-color:#ededed;
+}
+input[type="text"]::placeholder
+{
+    font-family: Monospace;
+    font-size: 16px;
+    color:#000000;
+    
+}
+button[type="submit"]
+{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: Calibri;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+button[type="submit"]:hover
+{
+    
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+.navbar-left
+{
+    margin-top: 238px;
+    list-style: none;
+    background-color: #ededed;
+    font-family: Monospace;
+    font-size: 20px;
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    z-index: 950;
+    
+    
+}
+
+.content
+{
+    margin-top: 250px;
+    margin-left: 300px;
+}
+
+.navbar-left ul
+{
+    
+    display: flex;
+    flex-direction : column;
+    padding-left: 20px;
+}
+
+ul.hide1
+{
+    display: none; 
+}
+
+ul.hide1-1
+{
+    display:none;
+}
+
+ul.hide1-2
+{
+    display:none;
+}
+ul.hide1-3
+{
+    display:none;
+}
+ul.hide1-4
+{
+    display:none;
+}
+
+
+
+
+.toHover1:hover ul.hide1
+{
+    display: inline;
+}
+
+.toHover1-1:hover ul.hide1-1 
+{
+    display:inline;
+}
+
+.toHover1-2:hover ul.hide1-2 
+{
+    display:inline;
+}
+.toHover1-3:hover ul.hide1-3 
+{
+    display:inline;
+}
+.toHover1-4:hover ul.hide1-4
+{
+    display:inline;
+}
+
+
+.product
+{
+    width: 400px;    
+}
+
+.tcq
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+.title
+{
+    text-align: center;
+    padding-top:20px;
+    padding-right: 5%;
+}
+
+.header
+{
+    font-family: fantasy;
+    font-size: 60px;
+    color: #000000;
+    align-content: center;
+
+    
+}
+
+.footer
+{
+    align-items: center;
+    z-index: 999;
+    background-color: black;
+    height: 200px;
+}
+
+.para
+{
+    margin-left: 500px;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    
+}
+
+.standalonepic
+{
+    width: 400px;
+}
+
+.buy
+{
+    margin-left: 500px;
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    
+}
+
+.merci
+{
+    text-align : center;
+}
+.butMerci
+{
+    font-family: Abril Fatface
+}
+
+.logos img 
+{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 20%;
+    
+    
+}
+.logos{
+    padding-top: 50px;
+}
+.view {
+    height: 100%;
+  }
+  
+  #mobile-box {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the element by setting left and right margins to auto */
+  }
+  
+  .card {
+    border-radius: 8px; /* Adjust the border-radius as needed */
+  }
+  
+  .card .view {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card h5 a {
+    color: #0d47a1;
+  }
+  
+  .card h5 a:hover {
+    color: #072f6b;
+  }
+  
+  #pButton {
+    float: left;
+    margin-top: 12px;
+    cursor: pointer;
+    color: #fff; /* Add text color for better visibility */
+  }
+  
+  #timeline {
+    width: 90%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  #playhead {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: -3px;
+    background: black;
+    cursor: pointer;
+  }
+  #playlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 500px; /* Adjust this value to move the playlist down */
+}
+
+.song {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    cursor: grab;
+    user-select: none;
+}
+
+.song:hover {
+    background-color: #ececec;
+}
